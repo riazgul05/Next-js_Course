@@ -1,0 +1,26 @@
+.loader-line {
+    width: 200px;
+    height: 5px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ddd;
+    margin: 100px auto;
+    -webkit-border-radius: '20px';
+    -moz-border-redius: '20px';
+    border-radius: 20px;
+}
+
+.loader-line:before {
+    content: " ";
+    position: absolute;
+
+    height: 5px;
+    width: 40px;
+    background-color: coral;
+    animation: linear infinite;
+    -webkit-animation: linear infinite;
+    -moz-animation: linear infinite;
+    -webkit-border-radius: '20px';
+    -moz-border-redius: '20px';
+    border-radius: 20px;
+}
